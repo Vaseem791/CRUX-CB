@@ -1,4 +1,4 @@
-/*Help Lakshya bhaiya spy on Ali. Tell him how many times did you see him!!
+/* Help Lakshya bhaiya spy on Ali. Tell him how many times did you see him!!
 
 Note : Who is Ali?! An element.
 
@@ -17,8 +17,10 @@ Sample Input
 6
 10 20 10 20 12 20
 10
+
 Sample Output
 2 
+
 Explanation
 Ali is 20.
 
@@ -29,7 +31,7 @@ package Arrays;
 
 import java.util.*;
 
-public class How_many_times_did_you_see_Ali {
+public class Main {
 
 	public static void main(String[] args) {
 		 Scanner scn=new Scanner(System.in);
