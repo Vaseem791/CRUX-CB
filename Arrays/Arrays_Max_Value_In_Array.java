@@ -1,4 +1,5 @@
-/*Take an input N, the size of array. Take N more inputs and store that in an array. Write a function which returns the maximum value in the array. Print the value returned.
+/*Take an input N, the size of array. Take N more inputs and store that in an array. Write a function which returns the maximum value in the array. 
+Print the value returned.
 
 1.It reads a number N.
 
@@ -21,18 +22,20 @@ Sample Input
 8
 6
 4
+
 Sample Output
 8
-Explanation
-Arrays= {2, 8, 6, 4} => Max value = 8
 
-*/
+Explanation
+Arrays= {2, 8, 6, 4} => Max value = 8     */
+
+
 
 package Arrays;
 
 import java.util.*;
 
-public class Arrays_Max_Value_In_Array {
+public class Main {
 
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
