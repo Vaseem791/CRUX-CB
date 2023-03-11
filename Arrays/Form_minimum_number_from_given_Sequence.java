@@ -1,4 +1,6 @@
-/*Given an array of patterns containing only I’s and D’s. I for increasing and D for decreasing. Devise an algorithm to print the minimum number following that pattern. Digits from 1-9 and digits can’t repeat.
+/*Given an array of patterns containing only I’s and D’s. I for increasing and D for decreasing. 
+Devise an algorithm to print the minimum number following that pattern. 
+Digits from 1-9 and digits can’t repeat.
 
 Input Format
 The First Line contains an Integer N, size of the array. Next Line contains N Strings separated by space.
@@ -25,7 +27,7 @@ For the Given sample case, For a Pattern of 'D' print a decreasing sequence whic
 package Arrays;
 
 import java.util.*;
-public class Form_minimum_number_from_given_Sequence {
+public class Main {
 	 public static void main(String[] args) {
 			Scanner scn = new Scanner(System.in);
 			int n = scn.nextInt();
