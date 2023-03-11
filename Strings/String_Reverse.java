@@ -22,7 +22,7 @@ package Strings;
 
 import java.util.Scanner;
 
-public class String_Reverse {
+public class Mian {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String r = sc.nextLine();
@@ -33,11 +33,11 @@ public class String_Reverse {
 		}
 		System.out.println(r2);
 // Method 2: using StringBuffer		
-//		StringBuffer r=new StringBuffer("Learn Coding");
+//		StringBuffer r=new StringBuffer("Hey there");
 //		System.out.println(r.reverse());
 		
 // Method 3: using StringBuilder		
-//		StringBuilder ref=new StringBuilder("Vaseem Ali");
+//		StringBuilder ref=new StringBuilder("Hey there");
 //		System.out.println(ref.reverse());
 	}
 }
