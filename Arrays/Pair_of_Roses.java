@@ -1,4 +1,5 @@
-/*Deepak has a limited amount of money that he can spend on his girlfriend. So he decides to buy two roses for her. Since roses are of varying sizes, their prices are different. Deepak wishes to completely spend that fixed amount of money on buying roses for her.
+/*Deepak has a limited amount of money that he can spend on his girlfriend. So he decides to buy two roses for her. Since roses are of varying sizes, their prices are different.
+Deepak wishes to completely spend that fixed amount of money on buying roses for her.
 As he wishes to spend all the money, he should choose a pair of roses whose prices when summed up are equal to the money that he has.
 Help Deepak choose such a pair of roses for his girlfriend.
 
@@ -17,7 +18,8 @@ Constraints
 Price[i]<1000001
 
 Output Format
-For each test case, you must print the message: ‘Deepak should buy roses whose prices are i and j.’, where i and j are the prices of the roses whose sum is equal do M and i ≤ j. You can consider that it is always possible to find a solution. If there are multiple solutions print the solution that minimizes the difference between the prices i and j.
+For each test case, you must print the message: ‘Deepak should buy roses whose prices are i and j’,where i and j are the prices of the roses whose sum is equal do M and i ≤ j. 
+You can consider that it is always possible to find a solution. If there are multiple solutions print the solution that minimizes the difference between the prices i and j.
 
 Sample Input
 2
@@ -33,15 +35,14 @@ Deepak should buy roses whose prices are 40 and 40.
 Deepak should buy roses whose prices are 4 and 6.
 
 Explanation
-Find two such kinds of price of roses which has sum up to equal to Deepak's Money.
+Find two such kinds of price of roses which has sum up to equal to Deepak's Money.  */
 
-*/
 package Arrays;
 
 import java.util.Arrays;
 import java.util.*;
 
-public class Pair_of_Roses {
+public class Main {
 
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
