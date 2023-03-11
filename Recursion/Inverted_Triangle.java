@@ -29,7 +29,7 @@ package Recursion;
 
 import java.util.Scanner;
 
-public class Inverted_Triangle {
+public class Main {
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
 		int n = scn.nextInt();
