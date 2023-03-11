@@ -24,7 +24,7 @@ package Sorting;
 import java.util.PriorityQueue;
 import java.util.*;
 
-public class Find_kth_Largest_Number {
+public class Main {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
