@@ -1,7 +1,10 @@
-/*You are provided two sorted arrays. You need to find the maximum length of bitonic subsequence. You need to find the sum of the maximum sum path to reach from beginning of any array to end of any of the two arrays. You can switch from one array to another array only at common elements.
+/*You are provided two sorted arrays. You need to find the maximum length of bitonic subsequence.
+You need to find the sum of the maximum sum path to reach from beginning of any array to end of any of the two arrays. 
+You can switch from one array to another array only at common elements.
 
 Input Format
-First line contains integer t which is number of test case. For each test case, it contains two integers n and m which is the size of arrays and next two lines contains n and m space separated integers respectively.
+First line contains integer t which is number of test case. For each test case, it contains two integers n and m which is the size of arrays 
+and next two lines contains n and m space separated integers respectively.
 
 Constraints
 1<=t<=100 1<=n,m<=100000
@@ -26,7 +29,7 @@ package Arrays;
 
 import java.util.*;
 
-public class Maximum_Sum_Path_in_Two_Arrays {
+public class Main {
 	public static void main(String args[]) {
 		Scanner sc = new Scanner(System.in);
 		int t = sc.nextInt();
@@ -49,10 +52,10 @@ public class Maximum_Sum_Path_in_Two_Arrays {
 	}
 
 	public static int pathSum(int[] arr, int[] brr) {
-		int i = 0;// arr
-		int j = 0;// brr
-		int p = 0;// arr start
-		int q = 0;// brr start
+		int i = 0;
+		int j = 0;
+		int p = 0;
+		int q = 0;
 		int ans = 0;
 		while (i < arr.length && j < brr.length) {
 			if (arr[i] < brr[j]) {
