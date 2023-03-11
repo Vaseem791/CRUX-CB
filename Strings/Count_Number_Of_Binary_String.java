@@ -26,7 +26,7 @@ package Strings;
 
 import java.util.Scanner;
 
-public class Count_Number_Of_Binary_String {
+public class Main {
 	public static void main(String[] args) {
 		Scanner scn=new Scanner(System.in);
 		int t=scn.nextInt();
