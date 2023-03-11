@@ -20,7 +20,7 @@ package Sorting;
 
 import java.util.*;
 
-public class Sort_just_Zeroes_and_Ones {
+public class Main {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
