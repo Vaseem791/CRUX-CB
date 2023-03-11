@@ -25,7 +25,7 @@ package Strings;
 
 import java.util.*;
 
-public class Playing_With_Good_String {
+public class Main {
 
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
