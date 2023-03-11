@@ -1,5 +1,6 @@
 /*
- Take as input N, the size of array. Take N more inputs and store that in an array. Take as input M, a number. Write a recursive function which returns the last index at which M is found in the array and -1 if M is not found anywhere. Print the value returned.
+ Take as input N, the size of array. Take N more inputs and store that in an array. Take as input M, a number.
+ Write a recursive function which returns the last index at which M is found in the array and -1 if M is not found anywhere. Print the value returned.
 
 Input Format
 Enter a number N and add N more numbers to an array, then enter number M to be searched
@@ -18,6 +19,7 @@ Sample Input
 2
 3
 2
+
 Sample Output
 3
 
@@ -26,7 +28,7 @@ package Recursion;
 
 import java.util.*;
 
-public class Last_Index {
+public class Main {
 	public static void main(String args[]) {
 
 		Scanner sc = new Scanner(System.in);
