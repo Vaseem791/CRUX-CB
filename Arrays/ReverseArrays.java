@@ -35,15 +35,15 @@ package Arrays;
 
 import java.util.*;
 
-public class ReverseArrays {
+public class Main{
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
-		int n = scn.nextInt();// 5
-		int arr[] = new int[n];// 5 size ka array
-		for (int i = 0; i < n; i++) {// array mei store
+		int n = scn.nextInt();
+		int arr[] = new int[n];
+		for (int i = 0; i < n; i++) {
 			arr[i] = scn.nextInt();
 		}
-		rev(arr);// function call
+		rev(arr);
 	}
 
 	public static void rev(int[] arr) {
