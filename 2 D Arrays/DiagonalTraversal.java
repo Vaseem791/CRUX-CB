@@ -20,7 +20,7 @@ package Two_D_Arrays;
 
 import java.util.*;
 
-public class DiagonalTraversal {
+public class Main {
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
 		int n = scn.nextInt();
