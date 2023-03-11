@@ -19,15 +19,11 @@ a
 Explanation
 For the given input string, a appear 4 times. Hence, it is the most frequent character.*/
 
-
-
-
-
 package Strings;
 
 import java.util.Scanner;
 
-public class String_Max_Frequency {
+public class Main {
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
 		String str = scn.next();
