@@ -1,4 +1,5 @@
-/*Take as input N, the size of an array. Take N more inputs and store that in an array. Take another number’s input as M. Write a function which returns the index on which M is found in an array, in case M is not found -1 is returned. Print the value returned.
+/*Take as input N, the size of an array. Take N more inputs and store that in an array. Take another number’s input as M. 
+Write a function which returns the index on which M is found in an array, in case M is not found -1 is returned. Print the value returned.
 
 1.It reads a number N.
 2.Take Another N numbers as an input and store them in an Array.
@@ -26,7 +27,7 @@ package Arrays;
 
 import java.util.*;
 
-public class ArraysLinearSearch {
+public class Main {
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
 		int num = scn.nextInt();
