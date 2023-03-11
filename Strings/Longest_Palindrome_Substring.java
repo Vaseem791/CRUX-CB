@@ -30,7 +30,7 @@ package Strings;
 
 import java.util.*;
 
-public class Longest_Palindrome_Substring {
+public class Main {
 
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
