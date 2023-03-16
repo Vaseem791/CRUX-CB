@@ -23,12 +23,11 @@ Sample Output
 Explanation
 Problem Credits - (Spoj)[http://www.spoj.com/problems/AGGRCOW/]
 */
-package Binary_Search;
 
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class Aggressive_Cows {
+public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
