@@ -1,9 +1,9 @@
-/*You are given number of pages in n different books and m students. The books are arranged in ascending order of number of pages. 
- * Every student is assigned to read some consecutive books. The task is to assign books in such a way that the maximum number of pages assigned to a student is minimum.
+/*You are given number of pages in n different books and m students. The books are arranged in ascending order of number of pages.  Every student is
+ assigned to read some consecutive books. The task is to assign books in such a way that the maximum number of pages assigned to a student is minimum.
 
 Input Format
-First line contains integer t as number of test cases. Next t lines contains two lines. For each test case, 1st line contains two integers n and m which represents the number 
-of books and students and 2nd line contains n space separated integers which represents the number of pages of n books in ascending order.
+First line contains integer t as number of test cases. Next t lines contains two lines. For each test case, 1st line contains two integers n and m which 
+represents the number of books and students and 2nd line contains n space separated integers which represents the number of pages of n books in ascending order.
 
 Constraints
 1 < t < 50
@@ -25,11 +25,11 @@ Explanation
 2nd students : 90 (total = 90)
 Print max(113, 90)
 */
-package Binary_Search;
+
 
 import java.util.*;
 
-public class Books_Allocation {
+public class Main {
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
 		int t = scn.nextInt();
